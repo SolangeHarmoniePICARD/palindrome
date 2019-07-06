@@ -14,12 +14,12 @@ function palindrome(word) {
 
 submit.addEventListener("click", function() {
     var text = document.getElementById("text").value;
-    var resultat = palindrome(text);
-    if(resultat === true) {
+    var result = palindrome(text);
+    if(result === true) {
         document.getElementById("notification").innerHTML = text + " est un palindrome";
-        document.getElementById("notification").className = "success";
+        document.getElementById("notification").className = "text-success";
     } else {
         document.getElementById("notification").innerHTML = text + " n'est pas un palindrome";
-        document.getElementById("notification").className = "danger";
+        document.getElementById("notification").className = "text-danger";
     }
 });
