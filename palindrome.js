@@ -1,1 +1,1 @@
-/* Projet de script en JS qui vérifie si le texte renseigné par l'utilisateur peut être lu dans les deux sens...*/
+/* Projet de script en JS qui vérifie si le texte renseigné par l'utilisateur est un palindrome, c'est-à-dire un mot ou groupe de mots qui peut se lire indifféremment de gauche à droite ou de droite à gauche en gardant le même sens. */
